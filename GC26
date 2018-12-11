@@ -1,0 +1,11 @@
+Phrase = input("Please input: I am an operator and I am eligeble to operate machinery in a Nuclear Plant ")
+if Phrase == "I am an operator and I am eligeble to operate machinery in a Nuclear Plant":
+    Phrase2 = input("Please input the phrase again")
+    if Phrase2 == Phrase:
+        print("Correct")
+    else:
+        print("Try again")
+else:
+    print("Try again")
+
+
