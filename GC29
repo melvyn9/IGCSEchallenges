@@ -1,0 +1,5 @@
+Reports = ["Very smart","Very intelligent","Super Smart","Super Active","Outgoing"]
+import random
+students = int(input("Please enter the number of students in the class: "))
+for i in range(students):
+    print("Student",[i],"is", Reports[random.randint(0,4)])
